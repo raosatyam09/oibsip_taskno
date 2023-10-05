@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="temp.css">
+    <!-- link of boxicons -->
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- link of awesome fonts -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <h1> This is a temp converter webisite</h1>
+        <p> It changes through celsius to other</p>
+
+
+        <div class="container">
+            <!-- time icon -->
+            <div class="time">
+                10:50 AM
+                <!-- wifi icon -->
+                <div class="icon">
+                    <i class='bx bx-wifi'></i>
+                    <i class='bx bx-no-signal'></i>
+                    <i class='bx bxs-battery'></i>
+                </div>
+            </div>
+            <!-- results -->
+
+            <div id="form">
+                <div>
+
+                    <label for="degree">Degree : </label>
+                    <input type="number" name="degree" id="degree" required>
+                </div>
+                <!-- for option selectioin -->
+                <div class="option">
+                    <label for="temp">Type: </label>
+                    <select name="temp" id="temp" autocomplete="on">
+                        <!-- <option value="choose">Choose any one</option>  -->
+                        <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin" id="kelvin">kelvin</option>
+                    </select>
+                </div>
+                <button id="btn"> CONVERT </button>
+
+            </div>
+            <div class="result">
+                <h2>Result:</h2>
+                <p id="resultValue"></p>
+            </div>
+        </div>
+        <!-- for degree -->
+
+    </div>
+
+    <script src="temp.js"> </script>
+
+</body>
+
+</html>

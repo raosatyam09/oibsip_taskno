@@ -1,0 +1,109 @@
+
+body{
+ text-align: center; 
+ margin-top: 150px;
+ background-image: url(./newbackground.jpg);
+ background-size: cover;
+}
+h1{
+ color:white ;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+p{
+   color: white;
+   text-align: center;
+   font-size: 18px;
+
+}
+ 
+   div{
+    padding-top: 30px;
+    width: 400px;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 9px;
+    justify-content: center; 
+    margin-left: 570px;
+
+   }
+ .blur{
+     backdrop-filter: blur(5px);
+ }
+.Forget{
+   font-family: myriad pro;
+   font-size: 16px;
+   color: whitesmoke;
+   text-decoration: none;
+   
+}
+a:hover{
+ color: blue;
+
+}
+#mail{
+
+   background: transparent;
+   border: none ;
+   width: 80%;
+   height: 40px;
+   font-size: 17px;
+   color: white;
+    
+}
+#pass{
+   background: transparent;
+   border: none;
+   width: 80%;
+   height: 40px;
+   font-size: 17px;
+   color: white; 
+
+}
+.button{
+  font-weight: 900;
+  font-size: large;
+   width: 90%;
+   height:10%;
+   background-color:rgb(152, 210, 212);
+   border-radius: 50px;
+   border: none;
+
+}
+.button:hover{
+  cursor: pointer;
+   background-color: rgb(114, 114, 242);
+}
+ #utube{ 
+ width: 50px;
+ height:20px;
+
+}
+#insta{
+   width: 50px;
+   height: 20px;
+    margin-right: 50px; 
+
+}
+#git{
+   width: 50px;
+   height: 20px;
+   margin-right: 40px;
+
+}
+#link {
+   width: 50px;
+   height: 20px;
+   margin-right: 40px;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin-top: 17px;
+}
+.container img{
+   filter:invert(1);
+}
+
